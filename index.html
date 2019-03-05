@@ -106,8 +106,19 @@
         
         .footer-description {
             flex: 3;
-            min-width: 300px;
             text-align: justify;
+        }
+        
+        @media screen and (max-width: 300px) {
+            .footer-description {
+                min-width: 100px;
+            }
+        }
+        
+        @media screen and (min-width: 301px) {
+            .footer-description {
+                min-width: 250px;
+            }
         }
     </style>
 
@@ -119,8 +130,7 @@
             <div class="title">
                 DOTYCHCZASOWA DZIAŁALNOŚĆ
             </div>
-            <hr>
-            Pierwsze zamówienie zrealizowaliśmy we wrześniu 2017 roku, obecnie jesteśmy na etapie skalowania działalności na całą Polskę.
+            <hr> Pierwsze zamówienie zrealizowaliśmy we wrześniu 2017 roku, obecnie jesteśmy na etapie skalowania działalności na całą Polskę.
         </div>
         <div class="counters">
             <div>
