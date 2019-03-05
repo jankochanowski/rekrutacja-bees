@@ -1,33 +1,155 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>
-		
-	</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Zadanie rekrutacyjne | Monika Władysiak
+    </title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 900px;
+            margin: auto;
+            padding: 40px;
+            line-height: 1.6;
+            font-size: 12px;
+        }
+        
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 50px;
+        }
+        
+        .main-banner {
+            font-size: 16px;
+            text-align: center;
+            max-width: 70%;
+            margin: auto;
+        }
+        
+        hr {
+            border: 1px solid #529B44;
+            width: 80px;
+        }
+        
+        .counters {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 40px;
+            padding-bottom: 100px;
+        }
+        
+        .counters > div {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        .counter {
+            color: #529B44;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        
+        .map-cont {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .map-cont > div {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .map-cont img {
+            width: 100%;
+            max-width: 400px;
+        }
+        
+        .footer {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .footer__title {
+            color: #529B44;
+            font-weight: bold;
+            font-size: 14px;
+            position: relative;
+        }
+        
+        .footer__title:before {
+            content: "";
+            position: absolute;
+            width: 100px;
+            height: 1px;
+            bottom: 0;
+            left: 0;
+            border-bottom: 2px solid #529B44;
+        }
+        
+        .fund-image {
+            flex: 1;
+        }
+        
+        .fund-image > img {
+            max-width: 200px;
+        }
+        
+        .footer-description {
+            flex: 3;
+            min-width: 300px;
+            text-align: justify;
+        }
+    </style>
+
 </head>
+
 <body>
-DOTYCHCZASOWA DZIAŁALNOŚĆ
+    <div class="main-container">
+        <div class="main-banner">
+            <div class="title">
+                DOTYCHCZASOWA DZIAŁALNOŚĆ
+            </div>
+            <hr>
+            Pierwsze zamówienie zrealizowaliśmy we wrześniu 2017 roku, obecnie jesteśmy na etapie skalowania działalności na całą Polskę.
+        </div>
+        <div class="counters">
+            <div>
+                <span class="counter">1500</span>
+                <br>zrealizowanych zamówień
+            </div>
+            <div>
+                <span class="counter">50</span>
+                <br> zaufanych rolników i producentów
+            </div>
+            <div>
+                <span class="counter">6</span>
+                <br> miast w których dostępne są nasze produkty
+            </div>
+        </div>
+        <div class="map-cont">
+            <div class="map-description">
+                Przez pierwszy rok od rozpoczęcia działalności działaliśmy wyłącznie w Warszawie. W listopadzie 2018 zdecydowaliśmy się na rozszerzenie naszej działalności. Dzisiaj PORA NA POLA obecne jest w 6 miastach, a wkrótce wdrożymy dostawy na terenie całej Polski.</div>
+            <div><img src="https://jankochanowski.github.io/rekrutacja-bees/map.png" alt="Mapa oddziałów w Polsce"></div>
+        </div>
 
-Pierwsze zamówienie zrealizowaliśmy we wrześniu 2017 roku, obecnie jesteśmy na etapie skalowania działalności na całą Polskę.
-
-1500 zrealizowanych zamówień
-
-50 zaufanych rolników i producentów
-
-6 miast w których dostępne są nasze produkty
-
-Przez pierwszy rok od rozpoczęcia działalności działaliśmy wyłącznie w Warszawie. W listopadzie
-2018 zdecydowaliśmy się na rozszerzenie naszej działalności. Dzisiaj PORA NA POLA obecne jest
-w 6 miastach, a wkrótce wdrożymy dostawy na terenie całej Polski.
-
-GRANT Z UE NA KWOTĘ 600 000 PLN
-
-Złożyliśmy wniosek o dofinansowanie opracowania i implementacji zupełnie nowej, innowacyjnej
-usługi realizacji dostaw zakupów do domu. Nasze koncepcyjne rozwiązania zawarte w projekcie są
-na dzień dzisiejszy unikatowe co najmniej w skali Europy w niszy dostaw żywności od rolników i
-małych producentów. Nasz projekt doskonale wpisuje się w Inteligentne Specjalizacje Podlasia i
-wymagania konkursu z poddziałania 1.2.1., co w połączeniu z dużymi pieniędzmi przeznaczonymi
-na program, daje nam bardzo duże szanse na znalezienie się na liście rankingowej.
-
+        <div class="footer">
+            <div class="fund-image">
+                <img src="https://jankochanowski.github.io/rekrutacja-bees/ue.jpg" alt="Logo Funduszy Europejskich"></div>
+            <div class="footer-description">
+                <p class="footer__title">GRANT Z UE NA KWOTĘ 600 000 PLN</p>
+                Złożyliśmy wniosek o dofinansowanie opracowania i implementacji zupełnie nowej, innowacyjnej usługi realizacji dostaw zakupów do domu. Nasze koncepcyjne rozwiązania zawarte w projekcie są na dzień dzisiejszy unikatowe co najmniej w skali Europy w niszy dostaw żywności od rolników i małych producentów. Nasz projekt doskonale wpisuje się w Inteligentne Specjalizacje Podlasia i wymagania konkursu z poddziałania 1.2.1., co w połączeniu z dużymi pieniędzmi przeznaczonymi na program, daje nam bardzo duże szanse na znalezienie się na liście rankingowej.
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
